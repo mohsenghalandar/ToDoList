@@ -1,0 +1,32 @@
+body{background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    width: 99%;
+    height: 100%;
+}
+*{box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+/*font-family: 'Grechen Fuemen', cursive; */
+@font-face {
+    font-family: 'b-vahid';
+    src:url('B-Vahid-Bold_0.woff') format('woff'),
+        url('B-Vahid-Bold_0.woff2') format('woff2'),
+        url('B-Vahid-Bold_0.svg#B-Vahid-Bold_0') format('svg'),
+        url('B-Vahid-Bold_0.eot'),
+        url('B-Vahid-Bold_0.eot?#iefix') format('embedded-opentype'),
+        url('B-Vahid-Bold_0.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+#en 
+{
+    color: blanchedalmond;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 45px;
+}
+#fa 
+{
+    color: blanchedalmond;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: large;
+}
