@@ -7,26 +7,31 @@ body{background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 /*font-family: 'Grechen Fuemen', cursive; */
 @font-face {
     font-family: 'b-vahid';
-    src:url('B-Vahid-Bold_0.woff') format('woff'),
-        url('B-Vahid-Bold_0.woff2') format('woff2'),
-        url('B-Vahid-Bold_0.svg#B-Vahid-Bold_0') format('svg'),
-        url('B-Vahid-Bold_0.eot'),
-        url('B-Vahid-Bold_0.eot?#iefix') format('embedded-opentype'),
-        url('B-Vahid-Bold_0.ttf') format('truetype');
+    src:url('../resoure/font/b-vahid/B-Vahid-Bold_0.woff') format('woff'),
+        url('../resoure/font/b-vahid/B-Vahid-Bold_0.woff2') format('woff2'),
+        url('../resoure/font/b-vahid/B-Vahid-Bold_0.svg') format('svg'),
+        url('../resoure/font/b-vahid/B-Vahid-Bold_0.eot'),
+        url('../resoure/font/b-vahid/B-Vahid-Bold_0.eot?#iefix') format('embedded-opentype'),
+        url('../resoure/font/b-vahid/B-Vahid-Bold_0.ttf') format('truetype');
 
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-#en 
+.en 
 {
     color: blanchedalmond;
     font-family: 'Grechen Fuemen', cursive;
-    font-size: 45px;
+    
 }
-#fa 
+.fa 
 {
     color: blanchedalmond;
-    font-family: 'Grechen Fuemen', cursive;
+    font-family: "b-vahid";
     font-size: large;
+}
+.header
+{
+    margin: 5px auto 5px auto;
+    text-align: center;
 }
