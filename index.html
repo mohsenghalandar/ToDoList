@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./style/style.css'>
     <link rel="stylesheet" href="./packages/Hover-master/hover.css">
+    <script src="./packages/jquery/jquery-3.6.0.min.js"></script>
     <script src='./scripts/main.js'></script>
 </head>
 <body>
@@ -15,8 +16,26 @@
         <p class="en">write it , memorise it and do it</p>
         <p class="fa">بنویس ، به خاطر بسپار و انجامش بده</p>
     </div>
-    <div class="note" ></div>
-    <div class="book"></div>
+    <div class="note" >
+        <span>
+            <h4 class="title">موضوع</h4>
+            <input id="title" class="" type="text">
+        </span>
+        <span>
+            <h5 class="ex1">توضیح مختصر</h5>
+            <input id="ex1" type="text">
+        </span>
+        <span>
+            <button class="btn1 hvr-fade" onclick="add()">Save</button>
+            </span>
+        <div>
+            <h5 class="ex2">توضیحات تکمیلی</h5>
+            <input id="ex2" class="" type="text">
+        </div>
+    </div>
+    <div class="book">
+
+    </div>
 
 </body>
 </html>

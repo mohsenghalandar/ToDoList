@@ -1,4 +1,4 @@
-body{background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+body{background-image: linear-gradient(to right, #510c9b 0%, #1449a3 100%);
     width: 99%;
     height: 100%;
 }
@@ -35,3 +35,54 @@ body{background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     margin: 5px auto 5px auto;
     text-align: center;
 }
+.note {direction: rtl; width: 50%; margin: 50px 0px 5px 250px;}
+input {
+    background-color: rgb(235, 235, 235);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 5px 10px 5px 20px;
+    letter-spacing:0px;
+    color: rgb(6, 22, 75);
+    font-family: "b-vahid";
+}
+.btn1{
+    margin: 5px 0px 0px 0px;
+background-color: darkgreen;
+height:40px;
+border-radius: 5px;
+padding: 5px 5px 5px 5px;
+color: rgb(235, 235, 235);
+font-family: 'Grechen Fuemen';
+font-size: large;
+border: none;
+cursor: pointer;
+width: 70px;
+}
+span{position: relative;}
+.title 
+{
+    display: inline;
+    color: rgb(235, 235, 235);
+    position: absolute;
+    top: -60px;
+}
+.ex1
+{
+    display: inline;
+    color: rgb(235, 235, 235);
+    position: absolute;
+    top: -60px; 
+}
+.ex2 {
+    display: block;
+    color: rgb(235, 235, 235);}
+#title{width:20% ;text-align: center;font-family: "b-vahid";}
+#ex1 {width: 50%; position: relative; top: +0px; padding-right: 15px;}
+#ex2 {width: 80%;position: relative; top: -15px; padding-right: 15px;}
+/*--------------------- finish header */
+/* start note book ----------------------*/
+
+
+
