@@ -35,7 +35,7 @@ body{background-image: linear-gradient(to right, #510c9b 0%, #1449a3 100%);
     margin: 5px auto 5px auto;
     text-align: center;
 }
-.note {direction: rtl; width: 50%; margin: 50px 0px 5px 250px;}
+.inputer {direction: rtl; width: 50%; margin: 50px 0px 5px 250px;}
 input {
     background-color: rgb(235, 235, 235);
     outline: none;
@@ -81,8 +81,72 @@ span{position: relative;}
 #title{width:20% ;text-align: center;font-family: "b-vahid";}
 #ex1 {width: 50%; position: relative; top: +0px; padding-right: 15px;}
 #ex2 {width: 80%;position: relative; top: -15px; padding-right: 15px;}
-/*--------------------- finish header */
-/* start note book ----------------------*/
+/*----------------------------------------- finish header */
+/* start note book ---------------------------------------*/
+.note-book {
+    direction: rtl; width: 70%; margin: 0px 0px 5px 200px;
+    background-image: linear-gradient(120deg, #fccb90a4 0%, #d57eeb8e 100%);
+    border: 1px rgba(192, 192, 192, 0.555);
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 10px 30px 10px;
+    text-align: center;
+}
 
+/* note style */
+.note 
+{
+    position: relative;
+    width: 90%;
+    padding: 10px 15px 10px 15px;
+    border: 1px rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    direction: rtl;
+    margin: 20px 0px 0px 0px;
+    
+    
+}
+/* clse btn */
+.close 
+{
+    top: 45%;
+    left: -80px;
+    position: absolute;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgba(255, 250, 250, 0.692);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+    
+}
+.close:hover {color: rgb(247, 247, 247); background-color: tomato;}
+.note_title {
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(255, 250, 250, 0.692);
+    width: 120px;
+    height:35px ;
+    border-radius:  25px 25px 25px 25px;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.note_title:hover {box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.555);}
+.note_ex1 {
+    top: 45%;
+    left: -10px;
+    position: absolute;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(255, 250, 250, 0.692);
+    width: 80%;
+    height: 35px;
+    border-radius:  25px 25px 25px 25px;
+    margin: 0px 10px 10px 10px;
+    overflow: hidden;
+}
 
 
