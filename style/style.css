@@ -1,3 +1,4 @@
+* {box-sizing: border-box;}
 body{background-image: linear-gradient(to right, #510c9b 0%, #1449a3 100%);
     width: 99%;
     height: 100%;
@@ -37,6 +38,7 @@ body{background-image: linear-gradient(to right, #510c9b 0%, #1449a3 100%);
 }
 .inputer {direction: rtl; width: 50%; margin: 50px 0px 5px 250px;}
 input {
+    font-size: large;
     background-color: rgb(235, 235, 235);
     outline: none;
     border: none;
@@ -88,65 +90,73 @@ span{position: relative;}
     background-image: linear-gradient(120deg, #fccb90a4 0%, #d57eeb8e 100%);
     border: 1px rgba(192, 192, 192, 0.555);
     border-radius: 10px 10px 10px 10px;
-    padding: 0px 10px 30px 10px;
+    padding: 10px 10px 30px 10px;
     text-align: center;
 }
 
 /* note style */
 .note 
 {
+    display: block;
     position: relative;
+    margin: 10px auto 5px auto;
     width: 90%;
-    padding: 10px 15px 10px 15px;
-    border: 1px rgb(255, 255, 255);
-    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: solid 1px rgba(255, 255, 255, 0.63);
+    border-radius: 35px 35px 35px 35px;
     direction: rtl;
-    margin: 20px 0px 0px 0px;
-    
-    
+    font-family: "b-vahid";
 }
-/* clse btn */
+/* close btn */
 .close 
 {
-    top: 45%;
-    left: -80px;
+    display: inline-block;
     position: absolute;
+    top: 15px;
     cursor: pointer;
-    font-size: x-large;
-    font-weight: bold;
-    background-color: rgba(255, 250, 250, 0.692);
-    padding: 5px 10px 5px 10px;
+    color: #510c9b;
+    margin: 0px 10px 5px 0px;
+    font-size: xx-large;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
+    background-color: rgba(255, 250, 250, 0.692);
     transition: 0.3s;
     
 }
+.close p{margin: -20px; font-size: 45px;}
 .close:hover {color: rgb(247, 247, 247); background-color: tomato;}
 .note_title {
-    position: absolute;
-    top: 45%;
-    right: 15px;
-    padding: 10px 15px 10px 15px;
+    display: inline-block;
+    margin: 10px 0px 0px 5px;
     background-color: rgba(255, 250, 250, 0.692);
     width: 120px;
     height:35px ;
     border-radius:  25px 25px 25px 25px;
-    margin: 0px 10px 10px 10px;
     cursor: pointer;
     overflow: hidden;
 
 }
 .note_title:hover {box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.555);}
 .note_ex1 {
-    top: 45%;
-    left: -10px;
-    position: absolute;
-    padding: 10px 15px 10px 15px;
+    display: inline-block;
     background-color: rgba(255, 250, 250, 0.692);
-    width: 80%;
+    margin: 10px 5px 0px 0px;
+    width: 65%;
     height: 35px;
     border-radius:  25px 25px 25px 25px;
-    margin: 0px 10px 10px 10px;
     overflow: hidden;
 }
+.note_ex2
+{
+    display: none;
+    background-color: rgba(255, 250, 250, 0.692);
+    border-radius:  25px 25px 25px 25px;
+    margin: 5px auto 5px auto;
+    width: 80%;
+}
+/* other class we need for js switching */
+.read {text-decoration: line-through;}
+
 
 
